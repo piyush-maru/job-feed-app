@@ -11,6 +11,7 @@ class JobDetailPage extends StatelessWidget {
   final JobDetailController controller = Get.put(JobDetailController());
   @override
   Widget build(BuildContext context) {
+    print("------------controller.job.value?.profilePic-------${controller.job.value?.profilePic}");
     return Scaffold(
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         appBar: AppBar(
